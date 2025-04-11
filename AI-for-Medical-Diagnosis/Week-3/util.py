@@ -7,7 +7,8 @@ import numpy as np
 import tensorflow as tf
 from IPython.display import Image
 from keras import backend as K
-from keras.engine import Input, Model
+from keras.models import Model
+from keras.layers import Input
 from keras.layers import (
     Activation,
     Conv3D,
